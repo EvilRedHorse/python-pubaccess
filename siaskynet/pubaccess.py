@@ -24,7 +24,7 @@ class Pubaccess:
     @staticmethod
     def default_download_options():
         return type('obj', (object,), {
-            'portal_url': 'https://scprime.hashpool.eu',
+            'portal_url': 'https://scp.techandsupply.ca',
         })
 
     @staticmethod
