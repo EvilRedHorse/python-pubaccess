@@ -110,7 +110,7 @@ class Pubaccess:
     @staticmethod
     def metadata(publink, opts=None):
         r = Pubaccess.metadata_request(publink, opts)
-        return json.loads(r.headers["skynet-file-metadata"])
+        return json.loads(r.headers["pubaccess-file-metadata"])
 
     @staticmethod
     def metadata_request(publink, opts=None, stream=False):
