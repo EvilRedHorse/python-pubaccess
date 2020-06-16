@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="scprime",
+    name="Pubaccess",
     version="1.0.2",
     author="Peter-Jan Brone",
     author_email="peterjan.brone@gmail.com",
-    description="Skynet SDK",
+    description="Public Portals SDK",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
