@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Pubaccess",
+    name="pubaccess",
     version="1.0.2",
     author="Peter-Jan Brone",
     author_email="peterjan.brone@gmail.com",
